@@ -41,10 +41,11 @@
    * The WISE Catalog of Galactic HII Regions. This paper provides an overview of the dataset that we'll be using. https://ui.adsabs.harvard.edu/abs/2014ApJS..212....1A/abstract
    * Simulation based inference: https://www.pnas.org/doi/10.1073/pnas.1912789117
    * Trigonometic Parallaxes of High-mass Star-forming Regions: in this paper, the authors are able to measure the distances and kinematics of some star forming regions in order to map out some of the structures that we're looking for. It's not directly related to this project, but it covers many of the topics that will be relevant to our work (Galactic rotation, spiral structure, etc.). https://ui.adsabs.harvard.edu/abs/2019ApJ...885..131R/abstract
+   </details>
 
 ### 3. Preparing your research environment.
 
-   **Status: Ongoing**
+   **Status: Complete**
 
    *Learning objective*: Prepare software environment
 
@@ -56,4 +57,18 @@
    Learn how to use Github to fork a repository, make changes on a branch, commit those changes, and submit them as a pull request to the repository.
    </details>
 
+### 4. Understanding the `galstruct` model
 
+   **Status: New**
+
+   *Learning objective*: Understand the components of the `galstruct` model
+
+   *Criteria for success*: Generate simulated longitude-velocity diagrams using `galstruct`
+
+   <details>
+   It's time to dig in to `galstruct`! To get started, familiarize yourself with the `galstruct` model: https://github.com/tvwenger/galstruct/tree/master/galstruct/model
+
+   Create a list of the model parameters, learn how the model parameters are related to the model, and run `simulator.py` to generate synthetic HII region datasets from the model.
+
+   Investigate the code and develop a firm understanding of how it works. Try to run it and keep notes about what is working and isn't working. Feel free to make pull requests to update the code as necessary!
+   </details>
