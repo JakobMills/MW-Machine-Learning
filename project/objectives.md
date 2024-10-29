@@ -59,7 +59,7 @@
 
 ### 4. Understanding the `galstruct` model
 
-   **Status: New**
+   **Status: Complete**
 
    *Learning objective*: Understand the components of the `galstruct` model
 
@@ -72,3 +72,20 @@
 
    Investigate the code and develop a firm understanding of how it works. Try to run it and keep notes about what is working and isn't working. Feel free to make pull requests to update the code as necessary!
    </details>
+
+### 5. Simulation Based Inference
+
+    **Status: New**
+
+    *Learning objective*: Learn how to use the python package `sbi`
+
+    *Criteria for success*: Run the `galstruct` `learn_likelihood.py` program
+
+    <details>
+    We're going to use the python package `sbi` for this project. Here is a link to the documentation: https://sbi-dev.github.io/sbi/latest/
+
+    Familiarize yourself with this software, and take notes about what parts you understand or do not understand so we can discuss them.
+
+    Ultimately, you will need to update the `learn_likelihood.py` program to work with the latest version of `sbi`. See what you can do, and we'll work on it together!
+    </details>
+
