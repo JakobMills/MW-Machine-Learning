@@ -75,7 +75,7 @@
 
 ### 5. Simulation Based Inference
 
-    **Status: New**
+    **Status: Complete**
 
     *Learning objective*: Learn how to use the python package `sbi`
 
@@ -87,5 +87,28 @@
     Familiarize yourself with this software, and take notes about what parts you understand or do not understand so we can discuss them.
 
     Ultimately, you will need to update the `learn_likelihood.py` program to work with the latest version of `sbi`. See what you can do, and we'll work on it together!
+    </details>
+
+### 6. Preparing for MCMC
+
+    **Status: New**
+
+    *Learning objective*: Learn about MCMC
+
+    *Criteria for success*: Run the `galstruct` `mcmc_posterior.py` program
+
+    <details>
+    Now that we've got `learn_likelihood.py` working, we have to get
+    `mcmc_posterior.py` working! Read about MCMC and work through some of the
+    tutorials here: https://www.pymc.io/welcome.html
+
+    I've gotten `mcmc_posterior.py` working, but we'll need to test it!
+    Try generating a neural network output from `learn_likelihood.py`
+    and then run it through `mcmc_posterior.py` and see what happens!
+    I recommend limiting your tests to a single spiral arm for now. Keep notes
+    about what works and doesn't work, what you understand and don't understand,
+    and we'll address them next time!
+
+    (Note, you might have to update your fork of `galstruct`!)
     </details>
 
