@@ -41,10 +41,11 @@
    * The WISE Catalog of Galactic HII Regions. This paper provides an overview of the dataset that we'll be using. https://ui.adsabs.harvard.edu/abs/2014ApJS..212....1A/abstract
    * Simulation based inference: https://www.pnas.org/doi/10.1073/pnas.1912789117
    * Trigonometic Parallaxes of High-mass Star-forming Regions: in this paper, the authors are able to measure the distances and kinematics of some star forming regions in order to map out some of the structures that we're looking for. It's not directly related to this project, but it covers many of the topics that will be relevant to our work (Galactic rotation, spiral structure, etc.). https://ui.adsabs.harvard.edu/abs/2019ApJ...885..131R/abstract
+   </details>
 
 ### 3. Preparing your research environment.
 
-   **Status: Ongoing**
+   **Status: Complete**
 
    *Learning objective*: Prepare software environment
 
@@ -56,4 +57,58 @@
    Learn how to use Github to fork a repository, make changes on a branch, commit those changes, and submit them as a pull request to the repository.
    </details>
 
+### 4. Understanding the `galstruct` model
+
+   **Status: Complete**
+
+   *Learning objective*: Understand the components of the `galstruct` model
+
+   *Criteria for success*: Generate simulated longitude-velocity diagrams using `galstruct`
+
+   <details>
+   It's time to dig in to `galstruct`! To get started, familiarize yourself with the `galstruct` model: https://github.com/tvwenger/galstruct/tree/master/galstruct/model
+
+   Create a list of the model parameters, learn how the model parameters are related to the model, and run `simulator.py` to generate synthetic HII region datasets from the model.
+
+   Investigate the code and develop a firm understanding of how it works. Try to run it and keep notes about what is working and isn't working. Feel free to make pull requests to update the code as necessary!
+   </details>
+
+### 5. Simulation Based Inference
+
+    **Status: Complete**
+
+    *Learning objective*: Learn how to use the python package `sbi`
+
+    *Criteria for success*: Run the `galstruct` `learn_likelihood.py` program
+
+    <details>
+    We're going to use the python package `sbi` for this project. Here is a link to the documentation: https://sbi-dev.github.io/sbi/latest/
+
+    Familiarize yourself with this software, and take notes about what parts you understand or do not understand so we can discuss them.
+
+    Ultimately, you will need to update the `learn_likelihood.py` program to work with the latest version of `sbi`. See what you can do, and we'll work on it together!
+    </details>
+
+### 6. Preparing for MCMC
+
+    **Status: New**
+
+    *Learning objective*: Learn about MCMC
+
+    *Criteria for success*: Run the `galstruct` `mcmc_posterior.py` program
+
+    <details>
+    Now that we've got `learn_likelihood.py` working, we have to get
+    `mcmc_posterior.py` working! Read about MCMC and work through some of the
+    tutorials here: https://www.pymc.io/welcome.html
+
+    I've gotten `mcmc_posterior.py` working, but we'll need to test it!
+    Try generating a neural network output from `learn_likelihood.py`
+    and then run it through `mcmc_posterior.py` and see what happens!
+    I recommend limiting your tests to a single spiral arm for now. Keep notes
+    about what works and doesn't work, what you understand and don't understand,
+    and we'll address them next time!
+
+    (Note, you might have to update your fork of `galstruct`!)
+    </details>
 
