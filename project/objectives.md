@@ -91,7 +91,7 @@
 
 ### 6. Preparing for MCMC
 
-    **Status: New**
+    **Status: Ongoing**
 
     *Learning objective*: Learn about MCMC
 
@@ -112,3 +112,46 @@
     (Note, you might have to update your fork of `galstruct`!)
     </details>
 
+### 7. Update and test the model.
+
+   **Status: Ongoing**
+
+   *Learning objective*: Learn how to create a Bayesian model.
+
+   *Criteria for success*: Submit pull requests to `galstruct`
+
+   <details>
+   You've already done a lot of this work, including:
+   * Re-working the model in an object oriented framework
+   * Add a new model for an exponential disk
+   * Generally improving and cleaning up the code
+   When you're ready, submit these changes to the main `galstruct`
+   repository as a pull request and I will integrate them into the
+   code!
+   </details>
+
+### 8. Run the model with MCMC
+
+   **Status: Trey's Objective**
+
+   *Learning objective*: Learn how to sample our model with MCMC.
+
+   *Criteria for success*: Generate some posterior samples
+
+   <details>
+   I will start getting things ready to run SBI/MCMC on Scylla...
+   </details>
+
+### 9. Outline and Write the Paper
+
+    **Status: New**
+
+    *Learning objective*: Practice writing a scientific manuscript
+
+    *Criteria for success*: Flush out the outline for the paper, and start writing!
+
+    <details>
+    You have the paper draft on Overleaf with a first attempt at an
+    outline for the paper. Please start flushing it out and keeping
+    track of places where I can provide helpful input!
+    </details>
